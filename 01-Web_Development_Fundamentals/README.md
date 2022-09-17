@@ -14,8 +14,4 @@
 <li>JavaScript: Assynchronous programming</li>
 <li>Automated Testing with Jest</li>
 </ol><br>
-<<<<<<< HEAD
 Expected time for Section completion (Online Classes + Projects): 60 days.
-=======
-Expected time for Section completion (Online Classes + Projects): 60 days.
->>>>>>> c877b878430e78d073eb90a4374aa99ae8879562
