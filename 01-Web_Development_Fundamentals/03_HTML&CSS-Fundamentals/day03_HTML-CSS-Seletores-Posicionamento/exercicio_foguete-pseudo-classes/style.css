@@ -1,0 +1,23 @@
+div:hover {
+    border: solid medium red;
+}
+div:first-of-type {
+    background-color: lightskyblue;
+}
+div:nth-of-type(2) {
+    background-color: lightgreen;
+}
+div:nth-of-type(3) {
+    background-color:indigo;
+    color: white;
+    padding: 20px;
+}
+div:nth-of-type(4) {
+    background-color: yellow; 
+}
+div:last-of-type {
+    background-color: red;
+}
+div h3 {
+    ;
+}
