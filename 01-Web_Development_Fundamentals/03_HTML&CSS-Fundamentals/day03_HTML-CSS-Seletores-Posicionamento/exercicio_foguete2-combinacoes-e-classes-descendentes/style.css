@@ -31,6 +31,34 @@ ul:first-of-type li:nth-of-type(-n+3) {
     color: blue;
 }
 
-ul:first-of-type li: {
+ul:first-of-type li:nth-of-type(2) {
     background-color: pink;
+}
+
+ul:first-of-type li:nth-of-type(3) {
+    background-color: pink;
+}
+
+ul:nth-of-type(2) li:hover {
+    font-weight: bold;
+}
+
+ul:nth-of-type(2) li a[href*="pt.stackoverflow"]:hover {
+    color: orange;
+}
+
+ul:nth-of-type(2) li a[href*="w3schools"]:hover {
+    color: green;
+}
+
+ul:nth-of-type(2) li a[href*="mozilla"]:hover {
+    color: black;
+}
+
+ul:nth-of-type(2) li a[href*="devdocs"]:hover {
+    color: yellow;
+}
+
+ul:nth-of-type(2) li a[href*="trybe"]:hover {
+    color: green;
 }
