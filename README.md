@@ -1,3 +1,3 @@
-# trybe-Portfolio
+<h1 style="color: green; font-family: sans-serif">trybe-Exercises</h1>
 
-All Tasks and Projects carried out during my course at Trybe.
+<p>Here you may find all tasks I have done troughout the course at Trybe on a daily basis - weekends included :).
