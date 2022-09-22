@@ -25,3 +25,7 @@
   .border {
     border: 5px solid black;
   }
+
+  body {
+    background-color: yellow;
+  }
