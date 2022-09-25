@@ -1,4 +1,4 @@
-const alpha = -90;
+const alpha = 20;
 const beta = 30;
 const gamma = 60;
 let resultado = true;
