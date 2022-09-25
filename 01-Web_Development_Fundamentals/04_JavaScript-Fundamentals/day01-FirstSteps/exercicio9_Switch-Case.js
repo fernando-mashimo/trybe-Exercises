@@ -1,6 +1,6 @@
-const pecaXadrez = "kinG";
+const chessPiece = "RooK";
 
-switch(pecaXadrez.toLowerCase()) {
+switch(chessPiece.toLowerCase()) {
     case "bishop":
         console.log("Diagonal");
         break;
