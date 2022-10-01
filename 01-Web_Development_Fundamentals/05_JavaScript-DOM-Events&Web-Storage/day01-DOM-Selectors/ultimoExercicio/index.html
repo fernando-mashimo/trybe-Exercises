@@ -59,15 +59,40 @@
         const text = document.getElementsByTagName("p");
         text[1].innerHTML = "Espero estar trabalhando!";
       }
-      
-      
+      // 2
+      function changeYellowSquareToGreen() {
+        const squareYellow = document.getElementsByClassName("main-content")[0];
+        squareYellow.style.backgroundColor = "rgb(76,164,109)";
+      }
+      // 3
+      function changeRedSquaretoWhite() {
+        const squareRed = document.getElementsByClassName("center-content")[0];
+        squareRed.style.backgroundColor = "rgb(255,255,255)";  
+      }
+      // 4
+      function correctText() {
+        const wrongText = document.getElementsByTagName("h1")[0];
+        wrongText.innerText = "Exercício - JavaScript";
+      }
+      // 5
+      function textToUpperCase() {
+        const textToChange = document.querySelector("p");
+        textToChange.innerHTML = textToChange.innerHTML.toUpperCase();
+      } // para usar método para alterar algum atributo, é necessário armazenar o resultado em uma variável.
+      // 6
+      function displayConsole() {
+        const textToDisplay = document.getElementsByTagName("p");
+        for (let elements of textToDisplay) {
+            console.log(elements.innerText);
+        }
+      }
 
       changeText();
-
-    //   const p = document.getElementsByTagName("p");
-    //   p[1].innerHTML = "Espero estar trabalhando!";
-
-      // 2
+      changeYellowSquareToGreen();
+      changeRedSquaretoWhite();
+      correctText();
+      textToUpperCase();
+      displayConsole();
 
     </script>
   </body>
