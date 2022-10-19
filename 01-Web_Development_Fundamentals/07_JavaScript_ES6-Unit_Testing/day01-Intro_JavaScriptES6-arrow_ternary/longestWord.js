@@ -10,3 +10,12 @@ const longestWord = (string) => {
 }
 
 console.log(longestWord('Antônio foi ao banheiro e não sabemos o que aconteceu'));
+
+// Pseudo-código usando o método de ordenação
+/* função maiorPalavra (frase) {
+    const arrayDeStrings = frase.split(' ');
+    arrayDeStrings.sort('ver como usar este método para ordenar a array da palavra mais longa para a menos longa'); //o método .sort() atualiza a própria array, desta forma não é necessário criar uma nova variável
+    return arrayDeStrings[0]; //retora a primeira palavra da array
+  }
+  console.log(maiorPalavra('Qual a maior palavra nesta fraaaaaaaaaaaaase ?'));
+*/
