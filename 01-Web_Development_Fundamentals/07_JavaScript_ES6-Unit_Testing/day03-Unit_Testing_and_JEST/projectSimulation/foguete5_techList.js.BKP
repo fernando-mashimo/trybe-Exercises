@@ -13,7 +13,5 @@ const techList = (array, name) => {
     }
     return finalList;
 };
-console.log(techList(['HTML', 'CSS'], 'Fernando'));
-console.log(techList([], 'Fernando'));
 
 module.exports = techList;

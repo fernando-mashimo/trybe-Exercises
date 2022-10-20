@@ -1,4 +1,4 @@
-const techList = require('./foguete5-techList');
+const techList = require('./foguete5_techList.js.BKP');
 
 describe('Testa a função techList', () => {
   it('Testa se a função techList é definida', () => {
