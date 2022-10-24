@@ -1,4 +1,4 @@
-const myFizzBuzz = require('./foguete3_myFizzBuzz');
+const myFizzBuzz = require('./3_myFizzBuzz');
 
 // Faça uma chamada com um número divisível por 3 e 5 e verifique se o retorno é o esperado
 // Faça uma chamada com um número divisível por 3 e verifique se o retorno é o esperado

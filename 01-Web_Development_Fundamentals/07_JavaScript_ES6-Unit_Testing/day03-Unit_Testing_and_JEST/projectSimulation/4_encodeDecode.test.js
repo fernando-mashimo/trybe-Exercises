@@ -1,4 +1,4 @@
-const { encode, decode } = require('./foguete4_encodeDecode');
+const { encode, decode } = require('./4_encodeDecode');
 
 // Teste se encode e decode são funções;
 // Para a função encode, teste se as vogais a, e, i, o, u são convertidas em 1, 2, 3, 4 e 5, respectivamente;

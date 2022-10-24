@@ -1,4 +1,4 @@
-const hydrate = require('./foguete6_hydrate');
+const hydrate = require('./6_hydrate');
 
 describe('Testa a função hydrate', () => {
   it('Testa se a função hydrate é definida', () => {

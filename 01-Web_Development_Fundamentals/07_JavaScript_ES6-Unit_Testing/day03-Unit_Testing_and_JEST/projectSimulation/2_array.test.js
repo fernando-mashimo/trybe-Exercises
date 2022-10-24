@@ -1,4 +1,4 @@
-const myRemove = require('./foguete2_array');
+const myRemove = require('./2_array');
 
 describe('A Função deve remover um certo item de um array se o mesmo estiver nela presente', () => {
   // Verifique se a chamada myRemove([1, 2, 3, 4], 3) retorna o array esperado

@@ -1,4 +1,4 @@
-const sum = require('./sum');
+const sum = require('./1_sum');
 
 describe('Testes da Função sum()', () => {
   
