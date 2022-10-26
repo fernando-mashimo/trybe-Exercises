@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #034422;
+  background-image: url(./img/image\ \(2\).png);
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 80%;
+  margin: 20px auto;
+}
+
+header  {
+  text-align: center;
+  border: solid 1px #034422;
+  border-radius: 5px;
+  width: 95%;
+  padding: 5px;
+  margin: 10px auto;
+  background-color: rgb(225, 242, 213, .4);
+  backdrop-filter: blur(6px);
+}
+
+form {
+  border: solid 1px #034422;
+  border-radius: 5px;
+  width: 95%;
+  padding: 15px;
+  margin: 10px auto;
+  background-color: rgb(225, 242, 213, .4);
+  backdrop-filter: blur(6px);
+}
+
+.logoTrybe {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+#paragInic {
+  font-style: italic;
+}
+
+#date {
+  width: 150px;
+}

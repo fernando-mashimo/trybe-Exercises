@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./DatePickerX-master/dist/css/DatePickerX.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <script src="./DatePickerX-master/dist/js/DatePickerX.min.js"></script>
+    <title>TrybeTrip</title>
+</head>
+<body>
+    <header class="container text-center">
+        <img src="./img/Trybe.png" class="logoTrybe" alt="logoTrybe">
+        <h1 class="display-5">TrybeTrip</h1>
+        <p id="paragInic">Quer ganhar uma viagem com tudo pago pela Trybe?</p>
+    </header>
+    <form class="container" action="" method="get" id="form">
+        <fieldset id="fieldset">
+            <section class="form-floating mb-3"> <!-- Input Text: Nome -->
+                <input type="text" class="form-control" name="name" id="name" minlength="10" maxlength="40" placeholder="Digite seu nome" required>
+                <label for="name" class="form-label">Nome</label>
+            </section>
+            
+            <section class="form-floating mb-3"> <!-- Input Email -->
+                <input type="email" class="form-control" name="email" id="email" minlength="10" maxlength="50" placeholder="Digite seu email" required>
+                <label for="email" class="form-label">Email</label>
+            </section>
+            
+            <section class="container mb-3"> <!-- Input Radio Buttons: Opções de viagens -->
+                <input type="radio" class="form-check-input" name="destination" id="destination1">
+                <label for="destination1" class="form-check-label">Cidade</label>
+                <input type="radio" class="form-check-input" name="destination" id="destination2">
+                <label for="destination2" class="form-check-label">Campo</label>
+                <input type="radio" class="form-check-input" name="destination" id="destination3">
+                <label for="destination3" class="form-check-label">Praia</label>
+                <input type="radio" class="form-check-input" name="destination" id="destination4">
+                <label for="destination4" class="form-check-label">Montanhas</label>
+            </section>
+            
+            <section class="container mb-3"> <!-- TextArea: Resposta -->
+                <label class="form-label" for="textArea" class="text">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip?</label>
+                <br>
+                <textarea class="form-control" name="textArea" id="textArea" cols="30" rows="10" maxlength="500" required></textarea>
+            </section>
+
+            <section class="container mb-3"> <!-- Input Date: Data desejada -->
+                <label for="date" id="dateLabel">Data:</label>
+                <input type="text" name="date" id="date">
+            </section>
+
+            <section class="container mb-3"> <!-- Input Checkbox: Concordo -->
+                <input type="checkbox" class="form-check-input" name="iAgree" id="newsCheckbox">
+                <label class="form-check-label" for="newsCheckbox" id="labelNews">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                <br>
+                <input type="checkbox" class="form-check-input" name="iAgree" id="picsCheckbox" required>
+                <label class="form-check-label" for="picsCheckbox" id="labelPics">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+                <section id="sendFiles"></section>
+            </section>
+        </fieldset>
+            <section class="container mb-3">
+                <input type="submit" class="btn btn-success" id="submit" value="Enviar"> <!-- Input: Botão Enviar -->
+                <input type="button" class="btn btn-secondary" id="reset" value="Apagar"> <!-- Input: Botão Apagar -->
+            </section>
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
