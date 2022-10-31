@@ -60,9 +60,11 @@ const books = [
       releaseYear: 1928,
     },
   ];
-  
-// Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
-const fictionFantasyBooks = books.filter((book) => {
-  return (book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
-});
-console.log(fictionFantasyBooks);
+
+  // Crie um array em ordem alfabética apenas com os nomes de todas as pessoas autoras de ficção científica ou fantasia.
+
+  const fantasyOrScienceFictionAuthors = books.filter((book) => (book.genre === 'Ficção Científica' || book.genre === 'Fantasia'))
+    .map((book) => book.author.name)
+    .sort();
+
+  console.log(fantasyOrScienceFictionAuthors);

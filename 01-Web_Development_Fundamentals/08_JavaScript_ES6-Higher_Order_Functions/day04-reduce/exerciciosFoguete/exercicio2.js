@@ -59,10 +59,28 @@ const books = [
       },
       releaseYear: 1928,
     },
-  ];
+];
   
-// Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
-const fictionFantasyBooks = books.filter((book) => {
-  return (book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
-});
-console.log(fictionFantasyBooks);
+// Crie uma string com os nomes de todas as pessoas autoras.
+
+const reduceNames = books.reduce((acc, currValue, index, array) => {
+  if (index < array.length - 1) return `${acc} ${currValue.author.name},`;
+  else return `${acc} ${currValue.author.name}.`;
+}, '');
+console.log(reduceNames);
+console.log('-------------------------------------------------------------------');
+
+// Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
+
+const averageAge = books.reduce((acc, currValue) => acc + (currValue.releaseYear - currValue.author.birthYear), 0) / books.length;
+console.log(averageAge);
+console.log('-------------------------------------------------------------------');
+
+// Encontre o livro com o maior nome.
+
+const longestNamedBook = books.reduce((acc, currValue) => {
+  if (currValue.name.length > acc.name.length) return currValue;
+  else return acc;
+}, books[0]);
+console.log(longestNamedBook);
+console.log('-------------------------------------------------------------------');
