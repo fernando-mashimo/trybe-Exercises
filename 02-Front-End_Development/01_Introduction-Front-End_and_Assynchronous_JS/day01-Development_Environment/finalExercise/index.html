@@ -6,8 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Validador de Campos</title>
 </head>
-    <script type="module" npm src="./src/main.js"></script>
 <body>
-    
+    <h1>Validador de Campos</h1>
+    <form action="" method="get" id="form">
+        <fieldset id="fieldset">
+            <section> <!-- Input Text: Nome -->
+                <label for="name" class="data">Nome:</label>
+                <input type="text" name="name" id="name" minlength="10" maxlength="40" placeholder="Digite seu nome (máx. 25 caract.) ">
+            </section>
+            
+            <section> <!-- Input Email -->
+                <label for="email" class="data">Email:</label>
+                <input type="email" name="email" id="email" minlength="10" maxlength="50" placeholder="Digite seu email">
+            </section>
+            
+            <section> <!-- Input Date: Data desejada -->
+                <label for="date" id="dateLabel">Data de nascimento:</label>
+                <input type="date" name="date" id="date">
+            </section>
+        </fieldset>
+        <select name="validationType" id="validationType">
+            <option value="name">Nome</option>
+            <option value="email">E-mail</option>
+            <option value="date">Data de Nascimento</option>
+        </select>
+        <input type="submit" id="validate" value="Validar"> <!-- Input: Botão Validar -->
+        <h3 id="validationResult">...</h3>
+
+    </form>
+
+    <script type="module" npm src="./src/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrybeTrip</title>
+</head>
+<body>
+    <h1>TrybeTrip</h1>
+    <form action="" method="get" id="form">
+        <fieldset id="fieldset">
+            <section> <!-- Input Text: Nome -->
+                <label for="name" class="data">Nome:</label>
+                <input type="text" name="name" id="name" minlength="10" maxlength="40" placeholder="Digite seu nome" required>
+            </section>
+            
+            <section> <!-- Input Email -->
+                <label for="email" class="data">Email:</label>
+                <input type="email" name="email" id="email" minlength="10" maxlength="50" placeholder="Digite seu email" required>
+            </section>
+            
+            <section> <!-- Input Radio Buttons: Opções de viagens -->
+                <input type="radio" name="destination" id="destination1">
+                <label for="destination1" class="destinations">Cidade</label>
+                <input type="radio" name="destination" id="destination2">
+                <label for="destination2" class="destinations">Campo</label>
+                <input type="radio" name="destination" id="destination3">
+                <label for="destination3" class="destinations">Praia</label>
+                <input type="radio" name="destination" id="destination4">
+                <label for="destination4" class="destinations">Montanhas</label>
+            </section>
+            
+            <section> <!-- TextArea: Resposta -->
+                <label for="textArea" class="text">Por que você deveria ser a pessoa desenvolvedora escolhida pelo concurso TrybeTrip?</label>
+                <br>
+                <textarea name="textArea" id="textArea" cols="30" rows="10" maxlength="500" required></textarea>
+            </section>
+
+            <section> <!-- Input Date: Data desejada -->
+                <label for="date" id="dateLabel">Data:</label>
+                <input type="date" name="date" id="date">
+            </section>
+
+            <section> <!-- Input Checkbox: Concordo -->
+                <label for="newsCheckbox" class="iAgree">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+                <input type="checkbox" name="iAgree" id="newsCheckbox">
+                <br>
+                <label for="picsCheckbox" class="iAgree">Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.</label>
+                <input type="checkbox" name="iAgree" id="picsCheckbox" required>
+                <section id="sendFiles"></section>
+            </section>
+        </fieldset>
+        <input type="submit" id="submit" value="Enviar"> <!-- Input: Botão Enviar -->
+        <input type="button" id="reset" value="Apagar"> <!-- Input: Botão Apagar -->
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
