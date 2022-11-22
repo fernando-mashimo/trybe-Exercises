@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
+}
+
+#bgColor-btn, .font-color, .font-size, .line-space, .font-family {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 20%;
+}
+

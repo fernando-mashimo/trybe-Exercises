@@ -1,0 +1,13 @@
+body {
+  box-sizing: content-box;
+  margin-top: 1vh;
+};
+
+.container {
+  display: flex;
+};
+
+#heroImg, #heroName, #pickHeroBtn {
+  justify-content: space-evenly;
+  align-items: center;
+};
