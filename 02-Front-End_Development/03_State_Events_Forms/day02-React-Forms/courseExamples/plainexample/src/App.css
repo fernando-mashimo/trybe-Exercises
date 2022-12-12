@@ -1,0 +1,18 @@
+body {
+  margin: 10px;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+}
+
+.select {
+  margin-right: 10px;
+}
