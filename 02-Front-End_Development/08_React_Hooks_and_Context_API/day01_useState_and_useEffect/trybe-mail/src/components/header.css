@@ -1,0 +1,12 @@
+.headerContainer {
+  align-items: center;
+  background-color: #3AD288;
+  color: white;
+  display: flex;
+  font-size: x-large;
+  font-weight: 600;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}

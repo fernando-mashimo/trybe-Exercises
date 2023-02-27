@@ -1,0 +1,39 @@
+button {
+  background-color: grey;
+}
+
+img {
+  width: 15px;
+}
+
+.container, .entriesContainer {
+  background-color: white;
+  align-items: center;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.emailsList {
+  list-style: none;
+}
+
+.email {
+  list-style: none;
+  padding: 5px;
+}
+
+.emailTitle {
+  margin: 10px;
+}
+
+.read {
+  font-weight: 300;
+}
+
+.unread {
+  font-weight: 700;
+}
